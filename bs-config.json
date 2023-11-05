@@ -1,0 +1,6 @@
+{
+    "proxy": "127.0.0.1:8000",
+    "files": ["public/**/*.*"],
+    "browser": "firefox",
+    "port": 3000
+}
