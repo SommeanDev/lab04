@@ -7,9 +7,9 @@
     <title>Article</title>
     @vite('resources/css/app.css')
 </head>
-<body class="bg-slate-900">
+<body class="bg-slate-900 w-full h-full flex-column content-center">
     @include('layout.header')
-    <div class="container w-fit">
+    <div class="max-w-full">
         @yield('appcontents')
     </div>
     @include('layout.footer')
